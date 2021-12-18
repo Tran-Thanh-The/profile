@@ -1,0 +1,22 @@
+@import './constants.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font;
+  color: $text-color;
+  background-color: white;
+  text-rendering: optimizeLegibility;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
